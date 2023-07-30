@@ -1,6 +1,23 @@
 body {
-  background-color: #91ced4;
+  background-color: #ffffff;
 }
+
+.submit-button{
+  height: 22px;
+}
+
+.message-box{
+  color: green;
+  margin-left: 10%;
+  margin-left: 10%;
+}
+
+.error-message-box{
+  color: red;
+  margin-left: 10%;
+  margin-left: 10%;
+}
+
 body * {
   box-sizing: border-box;
 }
@@ -15,9 +32,9 @@ body * {
 }
 
 img {
-  border-radius: 50%;
-  height: 60px;
-  width: 60px;
+  margin-left: 33%;
+  margin-top: 5%;
+  width: 31%;
 }
 
 .table-users {

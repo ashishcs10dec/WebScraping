@@ -30,11 +30,15 @@ def index():
              fields = ['Title', 'Rating', 'Review']
 
              rows=[]
-             for i in range(len(title)):
+             for i in range(len(rating)):
                 row={'Title':title[i].getText(),'Rating':rating[i].getText(),'Review':review[i].getText()}
                 rows.append(row)
 
              filename='flipkart_item_scraping.csv'
+             span_name=soup.find("span",{"class":"B_NuCI"})
+             if span_name != None:
+                  filename=span_name.getText()[:10].replace(" ","")+".csv"
+
              with open(filename, 'w',encoding='utf-8') as csvfile:
               # creating a csv dict writer object 
               writer = csv.DictWriter(csvfile, fieldnames = fields)

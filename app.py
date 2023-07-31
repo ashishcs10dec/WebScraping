@@ -5,6 +5,7 @@ from urllib.request import urlopen as uReq
 import logging
 import os
 import csv
+import time
 logging.basicConfig(filename="scrapper.log" , level=logging.INFO)
 
 application=Flask(__name__)
@@ -14,6 +15,7 @@ app=application
 def index():
     is_failure=False
     message=''
+    rows=[]
     if request.method == 'POST':
         try:
              url=request.form['item_url'].replace(" ","")
@@ -25,19 +27,25 @@ def index():
              title=soup.find_all("p",{"class":"_2-N8zT"})
              rating=soup.find_all("div",{"class":"_3LWZlK _1BLPMq"})
              review=soup.find_all("div",{"class":"t-ZTKy"})
+             user_name=soup.find_all("p",{"class":"_2sc7ZR _2V5EHH"})
 
              # field names 
-             fields = ['Title', 'Rating', 'Review']
+             fields = ['Title', 'Rating', 'Review',"UserName"]
 
              rows=[]
              for i in range(len(rating)):
-                row={'Title':title[i].getText(),'Rating':rating[i].getText(),'Review':review[i].getText()}
+                row={'Title':title[i].getText(),'Rating':rating[i].getText()
+                     ,'Review':review[i].getText(), 'UserName':user_name[i].getText()}
                 rows.append(row)
 
              filename='flipkart_item_scraping.csv'
              span_name=soup.find("span",{"class":"B_NuCI"})
              if span_name != None:
-                  filename=span_name.getText()[:10].replace(" ","")+".csv"
+                  import time
+                  obj = time.gmtime(0)
+                  epoch = time.asctime(obj)
+                  curr_time = round(time.time()*1000)
+                  filename=span_name.getText()[:10].replace(" ","")+ "_" + str(curr_time) +".csv"
 
              with open(filename, 'w',encoding='utf-8') as csvfile:
               # creating a csv dict writer object 
@@ -46,13 +54,13 @@ def index():
               writer.writeheader()
               # writing data rows 
               writer.writerows(rows)
-              message='Data pulled successfully!'
+              message='Data is imported in csv file successfully!'
 
         except Exception as e:
                     logging.info(e)
-                    #return 'OOPs! Something is wrong.'
+                    message = 'OOPs! Something is wrong.'
                     is_failure=True
-    return render_template("index.html",flag=is_failure,msg=message)
+    return render_template("index.html",flag=is_failure,msg=message,data=rows)
 
 if __name__ == "__main__":
     app.run()

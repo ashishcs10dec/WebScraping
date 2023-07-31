@@ -21,8 +21,32 @@
         {% if flag == False %}
         <span class="message-box">{{ msg }}</span>
         {% else %}
-        <span class="error-message-box">OOPs, Something went wrong.</span>
+        <span class="error-message-box">{{ msg }}</span>
         {% endif %}
     </div>
 </div>
+{% if data |length > 0  %}
+<div class="table-data">
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Rating</th>
+                <th>Review</th>
+                <th>UserName</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in data %}
+            <tr><td>{{item.Title}}</td>
+                <td>{{item.Rating}}</td>
+                <td>{{item.Review}}</td>
+                <td>{{item.UserName}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endif %}
+
 {% endblock %}

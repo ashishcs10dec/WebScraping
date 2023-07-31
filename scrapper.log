@@ -1,55 +1,19 @@
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 20:44:10] "POST / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 20:44:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 20:44:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 20:44:10] "[36mGET /static/Flipkart_logo.png HTTP/1.1[0m" 304 -
-INFO:root:list index out of range
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 20:44:31] "POST / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 20:44:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 20:44:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 20:44:31] "[36mGET /static/Flipkart_logo.png HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 20:44:46] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 20:44:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 20:44:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 20:44:46] "[36mGET /static/Flipkart_logo.png HTTP/1.1[0m" 304 -
-INFO:root:list index out of range
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 20:44:50] "POST / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 20:44:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 20:44:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 20:44:50] "[36mGET /static/Flipkart_logo.png HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:03:33] "POST / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:03:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:03:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:03:33] "[36mGET /static/Flipkart_logo.png HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:03:52] "POST / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:03:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:03:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:03:52] "[36mGET /static/Flipkart_logo.png HTTP/1.1[0m" 304 -
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:05:10] "POST / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:05:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:05:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:05:11] "[36mGET /static/Flipkart_logo.png HTTP/1.1[0m" 304 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:05:59] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:05:59] "[36mGET /static/Flipkart_logo.png HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:05:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:05:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:06:04] "POST / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:06:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:06:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:06:04] "[36mGET /static/Flipkart_logo.png HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:06:36] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:06:36] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:06:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:06:36] "[36mGET /static/Flipkart_logo.png HTTP/1.1[0m" 304 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:06:44] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:06:44] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:06:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 21:06:44] "[36mGET /static/Flipkart_logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:33:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:33:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:33:11] "[36mGET /static/Flipkart_logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:33:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:33:14] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:33:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:33:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:33:14] "[36mGET /static/Flipkart_logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:35:11] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:35:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:35:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:35:11] "[36mGET /static/Flipkart_logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:38:24] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:38:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:38:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jul/2023 13:38:24] "[36mGET /static/Flipkart_logo.png HTTP/1.1[0m" 304 -
